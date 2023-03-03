@@ -6,15 +6,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Video](#video)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -25,9 +23,18 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 Users should be able to:
 
 - See hover states for interactive elements
+### Video
+
+
+https://user-images.githubusercontent.com/126303552/222806117-b0926a8d-03f8-484f-a749-625546bcc965.mp4
+
+
+
+
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/126303552/222805637-3f4ef119-62af-4105-bd32-1d92067b6fa8.png)
 
 
 
