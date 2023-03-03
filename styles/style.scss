@@ -1,8 +1,112 @@
+  
+$backgroundColor : hsl(225, 100%, 94%);
+$accent: hsl(245, 75%, 52%);
+$veryPaleBlue : hsl(225, 100%, 98%);
+$fontColor : hsl(224, 23%, 55%);
+$headingColor : hsl(223, 47%, 23%);
+$bodyFont: 1.6rem;
+
+/*Basic styles*/
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    font-size: $bodyFont;
+}
+/*                       *
+ *  creating borders     *
+ *                      */
+
+
+.container{
+    
+    background-color: white;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+
+   
+    
+   
+    
+}
+
+
+.pricing-container{
+  border: 2px solid rgb(104, 104, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  align-self: center;
+  border-radius: 1rem;
+  background-color: $veryPaleBlue;
+  padding:0 2rem;
+  
+
+  
+}
+.music-icon{
+    
+    border-radius: 50%;
+    
+   
+}
+
+.music-icon img{
+    
+}
+.price-tag{
+    border: 2px solid red;
+}
+.link{
+ border: 2px solid purple;
+}
+
+/*                       *
+ *  creating layouts     *
+ *                      */
+ body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: $backgroundColor;
+    margin: 8rem 3rem;
+    text-align: center;
+   
+   
+    
+ }
+
+ .article-container p{
+    padding:0 3rem;
+    font-weight: 400;
+    color:$fontColor;
+ }
+
+ .image-container img{
+    width:100%;
+    background-size: cover;
+    border-radius: 2rem 2rem 0 0;
+ }
+button{
+    width:50%;
+    align-self: center;
+}
 .attribution a{
     color: hsl(228,45%,44%);
 }
 
-.attribution{
-    font-size: 11px;
-    text-align: center;
+h2{
+    font-weight: 900;
+    color:$headingColor;
+}
+
+@media screen and (min-width:1024px){
+   .container{
+    width: 25vw;
+   }
 }
