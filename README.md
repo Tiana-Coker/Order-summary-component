@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/126303552/222806117-b0926a8d-03f8-484f
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Order Summary Card: [https://tiana-coker.github.io/Order-summary-component/)
 
 
 ## My process
